@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="petFirstName">Pet's First Name</label>
+                    <label for="petFirstName">Pet's  Name</label>
                     <asp:TextBox ID="petFirstName" CssClass="form-control" runat="server"></asp:TextBox>
                 </div>
             </div>
