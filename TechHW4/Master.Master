@@ -13,8 +13,8 @@
         <div>
             <h1 style="color:blue"> Master Page  </h1>
             <div style="display:flex;flex-direction:row;justify-content:space-around;width:25%"></div>
-            <a href="Default.aspx">Default Page</a>
-            <a href="PageTwo.aspx">Page Two</a>
+            <a href="Default.aspx">Home</a>
+            <a href="PageTwo.aspx">Pets</a>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
