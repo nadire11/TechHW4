@@ -9,12 +9,19 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <h1 style="color:blue"> Master Page  </h1>
-            <div style="display:flex;flex-direction:row;justify-content:space-around;width:25%"></div>
-            <a href="Default.aspx">Home</a>
-            <a href="PageTwo.aspx">Pets</a>
+    <form id="form1" runat="server" >
+        <div class="container" >
+            <h1 style="color: blue">PetMed</h1>
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="Default.aspx">Login</a></li>
+                    <li class="breadcrumb-item"><a href="PageTwo.aspx">Prescription Category</a></li>
+                    <li class="breadcrumb-item"><a href="PageThree.aspx">Order Form</a></li>
+
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                  </ol>
+                </nav>
+             
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
