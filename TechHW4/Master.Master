@@ -8,14 +8,16 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body style="background-color: darkseagreen">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="Content/bootstrap-utilities.css" rel="stylesheet" />
     <form id="form1" runat="server" >
         <div class="container" >
             <h1 style="color: blue">PetMed</h1>
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="Default.aspx">Login</a></li>
-                    <li class="breadcrumb-item"><a href="PageTwo.aspx">Prescription Category</a></li>
+                    <li class="breadcrumb-item"><a href="PageTwo.aspx">Prescription </a></li>
                     <li class="breadcrumb-item"><a href="PageThree.aspx">Order Form</a></li>
 
                     <li class="breadcrumb-item active" aria-current="page">Data</li>
